@@ -1,0 +1,84 @@
+span{
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 1rem;
+	color: #fff;
+}
+.title {
+	text-align: center;
+	margin-top: 0;
+	padding-top: 1.5rem;
+	color: white;
+}
+
+.card{
+	width: 80%;
+	display: flex;
+	margin: auto;
+	height: 15rem;
+	margin-bottom: 3rem;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,79,164,1) 0%, rgba(0,212,255,1) 100%);
+	border-radius: .5rem;
+}
+.card p {
+	font-weight: bold;
+}
+.card .left {
+	overflow: hidden;
+	width: 15rem;
+}
+
+.card .left img {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+	border-radius: .5rem;
+	scale: 1;
+	transition: all 300ms;
+}
+
+.card:hover img{
+	scale: 1.5;
+}
+
+.card .right {
+	padding-left: 3rem;
+}
+.filterSearch{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 5rem;
+}
+
+.filterSearch input{
+	width: 50%;
+	height: 2rem;
+}
+
+li {
+	border: 1px solid skyblue;
+	display: inline-block;
+	padding: .5rem .7rem;
+}
+
+ul {
+	justify-content: center;
+	display: flex;
+}
+
+.pagination {
+	padding-bottom: 5rem;
+}
+/* .App{
+	box-sizing: border-box;
+} */
+body {
+	background: rgb(2,0,36);
+	background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(52,52,102,1) 0%, rgba(0,73,88,1) 100%);
+	margin: 0;
+	padding: 0;
+}
